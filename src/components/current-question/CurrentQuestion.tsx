@@ -33,7 +33,7 @@ const CurrentQuestion = ({
 
       const newCorrect = question.answers.findIndex((a) => a.isCorrect)
       setCorrect(newCorrect);
-      console.log(newCorrect, newSelected)
+
       playSound(newCorrect === newSelected ? "correct" : "wrong", false);
       await new Promise((resolve) => setTimeout(resolve, 5000));
 

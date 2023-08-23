@@ -6,6 +6,7 @@ import { StageProps } from "../App.tsx";
 import CurrentQuestion from "../components/current-question/CurrentQuestion.tsx";
 import logo from "../assets/logo.png"
 import {useSound} from "../hooks/useSound.tsx";
+import questions from "../assets/questions.json";
 
 export interface Question {
   question: string;
@@ -22,47 +23,13 @@ const minBackgroundSize = Math.round(
   Math.sqrt(Math.pow(window.outerWidth, 2) + Math.pow(window.outerHeight, 2)),
 );
 
-const questions: Question[] = [
-  {
-    question: "Test question",
-    answers: [
-      { text: "Answer not correct", isCorrect: false },
-      { text: "Answer not correct", isCorrect: false },
-      { text: "Answer not correct", isCorrect: false },
-      { text: "Answer correct", isCorrect: true },
-    ],
-    money: 500,
-  },
-  {
-    question: "Test question 2",
-    answers: [
-      { text: "Answer not correct 2", isCorrect: false },
-      { text: "Answer not correct 2", isCorrect: false },
-      { text: "Answer not correct 2", isCorrect: false },
-      { text: "Answer correct 2", isCorrect: true },
-    ],
-    money: 1000,
-  },
-  {
-    question: "Test question 3",
-    answers: [
-      { text: "Answer not correct 3", isCorrect: false },
-      { text: "Answer not correct 3", isCorrect: false },
-      { text: "Answer not correct 3", isCorrect: false },
-      { text: "Answer correct 3", isCorrect: true },
-    ],
-    money: 2000,
-  },
-];
-
 const Gameplay = ({ setStage }: StageProps) => {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const playSound = useSound();
 
   useEffect(() => {
-    console.log("gameplay")
     playSound("question");
-  }, []);
+  }, [playSound]);
 
   const correctAnswer = useCallback(() => {
     // Last question solved, it's a victory

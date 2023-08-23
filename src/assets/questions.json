@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Test question",
+    "answers": [
+      { "text": "Answer not correct", "isCorrect": false },
+      { "text": "Answer not correct", "isCorrect": false },
+      { "text": "Answer not correct", "isCorrect": false },
+      { "text": "Answer correct", "isCorrect": true }
+    ],
+    "money": 500
+  },
+  {
+    "question": "Test question 2",
+    "answers": [
+      { "text": "Answer not correct 2", "isCorrect": false },
+      { "text": "Answer not correct 2", "isCorrect": false },
+      { "text": "Answer not correct 2", "isCorrect": false },
+      { "text": "Answer correct 2", "isCorrect": true }
+    ],
+    "money": 1000
+  },
+  {
+    "question": "Test question 3",
+    "answers": [
+      { "text": "Answer not correct 3", "isCorrect": false },
+      { "text": "Answer not correct 3", "isCorrect": false },
+      { "text": "Answer not correct 3", "isCorrect": false },
+      { "text": "Answer correct 3", "isCorrect": true }
+    ],
+    "money": 2000
+  }
+]

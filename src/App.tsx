@@ -20,10 +20,9 @@ const stages: StageComponents = {
 };
 
 const App = () => {
-  const [stage, setStage] = useState<Stage>("mainMenu");
+  const [stage, setStage] = useState<Stage>("win");
   const Page = stages[stage];
 
-  console.log("app")
   return (
     <main>
       <Page setStage={setStage} />

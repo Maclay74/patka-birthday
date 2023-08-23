@@ -1,0 +1,24 @@
+.lose {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: {
+    image: url("../assets/background.jpg");
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
+
+  .logo {
+    max-width: 400px;
+    width: 80vw;
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    color: white;
+  }
+}

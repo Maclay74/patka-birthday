@@ -23,7 +23,7 @@ jobs:
 
       - name: Build the app
         env:
-          REACT_APP_MY_COMPONENT_CODE: ${{ secrets.PRESENT_CODE }}
+          REACT_APP_PRESENT_CODE: ${{ secrets.PRESENT_CODE }}
         run: npm run build
 
       - name: Deploy to GitHub Pages

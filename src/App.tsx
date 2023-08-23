@@ -20,7 +20,7 @@ const stages: StageComponents = {
 };
 
 const App = () => {
-  const [stage, setStage] = useState<Stage>("win");
+  const [stage, setStage] = useState<Stage>("mainMenu");
   const Page = stages[stage];
 
   return (

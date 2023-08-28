@@ -1,32 +1,122 @@
 [
   {
-    "question": "Test question",
+    "question": "Who’s the best on a skateboard",
     "answers": [
-      { "text": "Answer not correct", "isCorrect": false },
-      { "text": "Answer not correct", "isCorrect": false },
-      { "text": "Answer not correct", "isCorrect": false },
-      { "text": "Answer correct", "isCorrect": true }
+      { "text": "Tony Hawk", "isCorrect": false },
+      { "text": "Patka", "isCorrect": true },
+      { "text": "Bam Margera", "isCorrect": false },
+      { "text": "Ryan Sheckler", "isCorrect": false }
     ],
-    "money": 500
+    "money": 5
   },
   {
-    "question": "Test question 2",
+    "question": "Who's breaking our projects",
     "answers": [
-      { "text": "Answer not correct 2", "isCorrect": false },
-      { "text": "Answer not correct 2", "isCorrect": false },
-      { "text": "Answer not correct 2", "isCorrect": false },
-      { "text": "Answer correct 2", "isCorrect": true }
+      { "text": "GOG", "isCorrect": true },
+      { "text": "Bartek", "isCorrect": false },
+      { "text": "Bartek too", "isCorrect": false },
+      { "text": "Marta", "isCorrect": false }
     ],
-    "money": 1000
+    "money": 10
   },
   {
-    "question": "Test question 3",
+    "question": "What's a good name for a robot cleaner?",
     "answers": [
-      { "text": "Answer not correct 3", "isCorrect": false },
-      { "text": "Answer not correct 3", "isCorrect": false },
-      { "text": "Answer not correct 3", "isCorrect": false },
-      { "text": "Answer correct 3", "isCorrect": true }
+      { "text": "Clean Buddy", "isCorrect": false },
+      { "text": "Tidy Room 3000", "isCorrect": false },
+      { "text": "Kobieta 2.0", "isCorrect": true },
+      { "text": "Bezdomny", "isCorrect": false }
     ],
-    "money": 2000
+    "money": 20
+  },
+  {
+    "question": "How many 'L' in 'Volvo'?",
+    "answers": [
+      { "text": "5", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "Bartek", "isCorrect": false }
+    ],
+    "money": 30
+  },
+  {
+    "question": "What should be written on a hat?",
+    "answers": [
+      { "text": "Czapka Patki", "isCorrect": true },
+      { "text": "Adidas", "isCorrect": false },
+      { "text": "Nice", "isCorrect": false },
+      { "text": "Cyberpunk", "isCorrect": false }
+    ],
+    "money": 40
+  },
+  {
+    "question": "How many shrimps are there?",
+    "answers": [
+      { "text": "30", "isCorrect": false },
+      { "text": "15", "isCorrect": false },
+      { "text": "3.5", "isCorrect": false },
+      { "text": "Not enough to eat!", "isCorrect": true }
+    ],
+    "money": 50
+  },
+  {
+    "question": "How to fix 'Check engine'?",
+    "answers": [
+      { "text": "Go to workshop", "isCorrect": false },
+      { "text": "Buy a new car", "isCorrect": false },
+      { "text": "Switch to LPG and back", "isCorrect": true },
+      { "text": "Just ignore it", "isCorrect": false }
+    ],
+    "money": 75
+  },
+  {
+    "question": "The best Insta nickname for a software developer?",
+    "answers": [
+      { "text": "codopatka", "isCorrect": false },
+      { "text": "developatka", "isCorrect": false },
+      { "text": "skatopatka", "isCorrect": false },
+      { "text": "fizjopatka", "isCorrect": true }
+    ],
+    "money": 100
+  },
+  {
+    "question": "What would be 'Złom' + 'Złom'?",
+    "answers": [
+      { "text": "(Złom)^2", "isCorrect": false },
+      { "text": "Złomowisko", "isCorrect": true },
+      { "text": "2Złom", "isCorrect": false },
+      { "text": "Undefined error", "isCorrect": false }
+    ],
+    "money": 125
+  },
+  {
+    "question": "What's a nice idea to collect?",
+    "answers": [
+      { "text": "Coins", "isCorrect": false },
+      { "text": "Cats", "isCorrect": false },
+      { "text": "Buy offers for old cars", "isCorrect": true },
+      { "text": "Tasks in 'Tests' column", "isCorrect": false }
+    ],
+    "money": 150
+  },
+  {
+    "question": "What's the correct TypeScript type for true/false value?",
+    "answers": [
+      { "text": "Boolean", "isCorrect": false },
+      { "text": "bool", "isCorrect": false },
+      { "text": "boolean", "isCorrect": true },
+      { "text": "Uh...Mike, masz chwilę?", "isCorrect": false }
+    ],
+    "money": 200
+  },
+  {
+    "question": "How would you prefer your price?",
+    "answers": [
+      { "text": "In cash", "isCorrect": false },
+      { "text": "Decathlon gift card", "isCorrect": true },
+      { "text": "On card", "isCorrect": false },
+      { "text": "250? I want more!", "isCorrect": false }
+    ],
+    "money": 250
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "question": "Who’s the best on a skateboard",
+    "question": "Who’s the best on a skateboard?",
     "answers": [
       { "text": "Tony Hawk", "isCorrect": false },
       { "text": "Patka", "isCorrect": true },
@@ -10,7 +10,7 @@
     "money": 5
   },
   {
-    "question": "Who's breaking our projects",
+    "question": "Who's breaking our projects?",
     "answers": [
       { "text": "GOG", "isCorrect": true },
       { "text": "Bartek", "isCorrect": false },
@@ -100,12 +100,12 @@
     "money": 150
   },
   {
-    "question": "What's the correct TypeScript type for true/false value?",
+    "question": "How to fix a TypeScript error?",
     "answers": [
-      { "text": "Boolean", "isCorrect": false },
-      { "text": "bool", "isCorrect": false },
-      { "text": "boolean", "isCorrect": true },
-      { "text": "Uh...Mike, masz chwilę?", "isCorrect": false }
+      { "text": "Into unknown!", "isCorrect": false },
+      { "text": "// @ts-ignore", "isCorrect": false },
+      { "text": "Disable code check", "isCorrect": false },
+      { "text": "Uh...Mike, masz chwilę?", "isCorrect": true }
     ],
     "money": 200
   },

@@ -17,15 +17,7 @@ interface QuestionItemProps {
 }
 
 const QuestionItem = ({ question, current, done, index }: QuestionItemProps) => {
-
-  const money = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 0,
-  }).format(question.money);
-
-  return <div className={cx("question", {current, done})} data-index={index + 1}>{money}</div>;
+  return <div className={cx("question", {current, done})} data-index={index + 1}>{question.money} zl</div>;
 };
 
 const QuestionsList = ({ questions, current }: QuestionsListProps) => {
